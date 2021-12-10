@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body{
+      background-color: lightblue;
+      }
+      .petal{
+      height: 100px;
+      width: 100px;
+      background-color: darkred;
+      border-radius: 0 100px;
+      transform-origin: right bottom;
+      position: relative;
+      }
+      .primer{
+        top: 100px;
+        left: 100px;
+        transform: rotate(60deg);
+      }
+      .segon{
+        top: 0px;
+        left: 100px;
+        transform: rotate(120deg);
+      }
+      .tercer{
+        top: -100px;
+        left: 100px;
+        transform: rotate(180deg);
+      }
+      .quart{
+        top: -200px;
+        left: 100px;
+        transform: rotate(240deg);
+      }
+      .cinque{
+        top: -300px;
+        left: 100px;
+        transform: rotate(300deg);
+      }
+      .sise{
+        top: -400px;
+        left: 100px;
+        transform: rotate(360deg);
+      }
+      .cercleinvisible{
+        background-color: lightblue;
+        height: 230px;
+        width: 230px;
+        top: -560px;
+        border-radius: 150px;
+        margin-left: 950px;
+        position: relative;
+      }
+      .cor{
+        height: 50px;
+        width: 50px;
+        background-color: gold;
+        border-radius: 50%;
+        position: relative;
+        top: -425px;
+        left: 175px;
+        }
+      .tija{
+        width: 20px;
+        height: 500px;
+        border-radius: 20px;
+        background-color: darkgreen;
+        position: relative;
+        left: 210px;
+        top: -80px;
+        }
+        .fulla{
+        position: relative;
+        top: 100px;
+        left: 10px;
+        background-color: lightgreen;
+        }
+        .flor{
+        /*animation-name: rotacio;
+        animation-duration: 1,5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 4s;*/
+        transform-origin: 200px 200px;
+        animation: rotacio 1.5s linear infinite 2s;
+        position: relative;
+        left: 20px;
+        top: 320px;
+        z-index: 1;
+        }
+        @keyframes rotacio{
+          0% {
+          transform: rotate(0deg);
+          }
+
+          100%{
+          transform: rotate(360deg);
+          }
+          }
+          .sol{
+            height: 230px;
+            width: 230px;
+            background-color:rgb(241, 193, 2);
+            top: 330px;
+            margin-left: 1100px;
+            border-radius: 200px;
+            position: relative;
+            margin-top: -290px;
+            left: 200px;
+            animation: sol 15s linear infinite 1s;
+          }
+          @keyframes sol{
+            0%{
+              left: 300px;
+            }
+            25%{
+              left: 250px;
+            }
+            50%{
+              left: 200px;
+            }
+            75%{
+              left: 150px;
+              background-color: white;
+
+            }
+            100%{
+              left: 100px;
+              background-color: white;
+            }
+            }
+    </style>
+  </head>
+  <body>
+    <div class="sol">
+    </div>
+    <div class="flor">
+      <div class="petal primer"></div>
+      <div class="petal segon"></div>
+      <div class="petal tercer"></div>
+      <div class="petal quart"></div>
+      <div class="petal cinque"></div>
+      <div class="petal sise"></div>
+      <div class="cor"></div>
+    </div>
+      <div class="tija">
+          <div class="petal fulla">
+          </div>
+        <div class="cercleinvisible">
+        </div>
+      </div>
+  </body>
+</html>
