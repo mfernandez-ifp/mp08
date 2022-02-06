@@ -1,14 +1,11 @@
 body{
-background-image: url("../img/fotocara.jpg");
-background-size: 600px;
-background-repeat: no-repeat;
-opacity: 95%;
+background-color: lightgreen;
 }
 
 .cap{
 margin: 0 auto;
 width: 450px;
-height: 620px;
+height: 580px;
 background-color: #f9eada;
 border-radius: 400px 400px 400px 400px;
 margin-top: 130px;
@@ -19,7 +16,7 @@ top: -20px;
 }
 
 .front{
-  height: 100px;
+height: 100px;
 }
 
 .celles{
@@ -43,6 +40,31 @@ top: -20px;
   left: -40px;
   transform: rotateZ(230deg);
   z-index: 1;
+  animation: cellaesq;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: normal;
+  z-index: 1;
+  }
+  @keyframes cellaesq{
+  0%{
+  top: -250px;
+  }
+  25%{
+  top: -255px;
+  }
+  50%{
+  top: -260px;
+  }
+  75%{
+  top: -255px;
+  }
+  100%{
+  top: -250px;
+  z-index: 1;
+  }
 }
 
 #celladreta{
@@ -50,6 +72,81 @@ top: -20px;
   top: -240px;
   left: 60px;
   z-index: 1;
+  animation: celladreta;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: normal;
+  z-index: 1;
+  }
+  @keyframes celladreta{
+  0%{
+  top: -250px;
+  }
+  25%{
+  top: -255px;
+  }
+  50%{
+  top: -260px;
+  }
+  75%{
+  top: -255px;
+  }
+  100%{
+  top: -250px;
+  z-index: 1;
+  }
+}
+
+.parpellaesqsup{
+position: relative;
+width: 78px;
+height: 14px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -260px;
+left: -20px;
+float: left;
+z-index: 5;
+}
+
+.parpellaesqinf{
+position: relative;
+width: 78px;
+height: 20px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -236px;
+left: 58px;
+float: left;
+transform: rotateZ(-180deg);
+z-index: -1;
+}
+
+.parpelladretainf{
+position: relative;
+width: 78px;
+height: 20px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -375px;
+left: -60px;
+float: right;
+z-index: 1;
+transform: rotateZ(-180deg);
+}
+
+.parpelladretasup{
+position: relative;
+width: 78px;
+height: 14px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -400px;
+left: 19px;
+float: right;
+z-index: 3;
 }
 
 .cabell{
@@ -171,9 +268,9 @@ margin: 180px, 0px;
 height: 100px;
 width: 450px;
 float: right;
-top: -150px;
+top: -40px;
 position: relative;
-z-index: 2;
+z-index: 1;
 }
 
 .blanc{
@@ -182,28 +279,59 @@ height: 40px;
 background: white;
 display: inline-block;
 border-radius: 50%;
-top: -180px;
+top: -145px;
+left: 40px;
 position: relative;
+z-index: 1;
 }
 
 .esquerra .blanc{
-margin-left: 60px;
-margin-top: -220px;
+top: -260px;
+left: -100px;
 position: relative;
 }
 
 .dreta .blanc{
-margin-right: 60px;
+left: -20px;
+top: -420px;
+position: relative;
+z-index: 1;
 }
 
 .iris{
-  width: 40px;
-  height: 40px;
-  background: #b47311;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 0px 20px;
-  }
+width: 40px;
+height: 40px;
+background: #b47311;
+display: inline-block;
+border-radius: 50%;
+margin: 0px 20px;
+position: relative;
+animation: irisos;
+animation-duration: 5s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 1;
+}
+@keyframes irisos{
+0%{
+left: 0px;
+}
+25%{
+left: 5px;
+}
+50%{
+left: 10px;
+}
+75%{
+left: 5px;
+}
+100%{
+left: 0px;
+z-index: 1;
+}
+}
 
 .pupila{
 width: 25px;
@@ -221,18 +349,19 @@ background-color: #FFF;
 border-radius: 5px;
 display: inline-block;
 position: relative;
-z-index: 7;
+z-index: 8;
 }
 
 #brillantordreta{
 float: right;
-left: 240px;
+left: -8px;
 top: -4px;
+z-index: 1;
 }
 
 #brillantoresquerra{
 float: left;
-left: 23px;
+left: 26px;
 top: -4px;
 }
 
@@ -252,6 +381,7 @@ background-color: #614229;
 border-radius: 165px 400px 400px 243px / 98px 100px 150px 96px;
 margin-top: -30px;
 opacity: 85%;
+left: 156px;
 }
 
 .transparentullera{
@@ -272,9 +402,32 @@ border-radius: 165px 400px 400px 243px / 98px 100px 150px 96px;
 #ulleresdreta{
 float: right;
 top: -430px;
-right: px;
 z-index: 2;
 position: relative;
+animation: ulleres;
+animation-duration: 5s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 4;
+}
+@keyframes ulleres{
+0%{
+top: -430px;
+}
+25%{
+top: -425px;
+}
+50%{
+top: -430px;
+}
+75%{
+top: -425px;
+}
+100%{
+top: -430px;
+}
 }
 
 #ulleresesq{
@@ -299,7 +452,7 @@ transform: rotateZ(180deg);
 
 #transparentesq{
 top: -110px;
-left: -250px;
+left: -247px;
 position: relative;
 transform: rotateZ(180deg);
 z-index: 4;
@@ -314,11 +467,11 @@ float: right;
 }
 
 .orella{
-  width: 30px;
-  height: 100px;
-  border-radius: 20px 40px 50px 10px;
-  background-color: #fcdebd;
-  position: relative;
+width: 30px;
+height: 100px;
+border-radius: 20px 40px 50px 10px;
+background-color: #fcdebd;
+position: relative;
 }
 
 .detallorella{
@@ -336,8 +489,9 @@ position: relative;
 }
 
 #orelladreta{
-left: 448px;
-top: -320px;
+left: 386px;
+top: -440px;
+float: right;
 z-index: -1;
 }
 
@@ -350,14 +504,15 @@ position: relative;
 top: 80px;
 left: -3px;
 transform: rotate(30deg);
-z-index: 0;
+z-index: -1;
 }
 
 #orellaesq{
-left: -25px;
-top: -420px;
+left: 622px;
+top: -440px;
 transform: rotateZ(180deg);
 z-index: -1;
+float: left;
 }
 
 #lobulesq{
@@ -377,8 +532,8 @@ width: 50px;
 height: 170px;
 border-radius: 147px 147px 55px 55px / 341px 341px 83px 83px;
 background-color: #fcdebd;
-left: 200px;
-top: -545px;
+left: 850px;
+top: -410px;
 position: relative;
 }
 
@@ -386,29 +541,82 @@ position: relative;
 height: 100px;
 width: 100px;
 border-radius: 100px;
-background-color: rgba(245, 153, 228, 0.15);
+background-color: rgba(251, 213, 245, 0.15);
 display: inline-block;
 position: relative;
+z-index: 1;
 }
 
 #coloretdreta{
-left: -320px;
-top: -600px;
+left: -510px;
+top: -480px;
 float: right;
+animation: coloretdreta;
+animation-duration: 15s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+}
+@keyframes coloretdreta{
+0%{
+left: -200px;
+background-color: rgba(251, 213, 245, 0.15);
+}
+25%{
+left: -205px;
+}
+50%{
+left: -210px;
+}
+75%{
+left: -205px;
+}
+100%{
+left: -200px;
+background-color: rgba(204, 175, 199, 0.15);
+}
 }
 
 #coloretesq{
 position: relative;
-left: 320px;
-top: -600px;
+left: 680px;
+top: -480px;
 float: left;
+animation: coloretesq;
+animation-duration: 15s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 10;
+}
+@keyframes coloretesq{
+0%{
+left: 680px;
+background-color: rgba(251, 213, 245, 0.15);
+}
+25%{
+left: 685px;
+}
+50%{
+left: 690px;
+}
+75%{
+left: 685px;
+}
+100%{
+left: 680px;
+background-color: rgba(204, 175, 199, 0.15);
+z-index: 1;
+}
 }
 
 .cercle{
-  width: 40px;
-  height: 50px;
-  border-radius: 20px 40px 50px 10px;
-  background-color: #fcdebd;
+width: 40px;
+height: 50px;
+border-radius: 20px 40px 50px 10px;
+background-color: #fcdebd;
 }
 
 #cercledreta{
@@ -448,15 +656,42 @@ transform: rotateY(180deg);
 
 .llavis{
 position: relative;
-left: 120px;
-top: -120px;
+left: 785px;
+top: -20px;
 z-index: 9;
+height: 10px;
+width: 10px;
+z-index: 1;
+animation: llavis;
+animation-duration: 8s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 10;
 }
-
+@keyframes llavis{
+0%{
+top: -20px;
+}
+25%{
+top: -25px;
+}
+50%{
+top: -30px;
+}
+75%{
+top: -25px;
+}
+100%{
+top: -20px;
+z-index: 1;
+}
+}
 .llavisup{
 height: 30px;
 width: 100px;
-background-color: #c45169;
+background-color: #dd7881;
 border-radius: 44% 56% 100% 0% / 100% 100% 0% 0%;
 position: relative;
 top: -345px;
@@ -473,34 +708,34 @@ z-index: 9;
 }
 
 .partmitjanallavi{
-height: 14px;
-width: 168px;
-border-radius: 15px;
-background-color: green;
-top: -355px;
-left: 16px;
+height: 20px;
+width: 177px;
+border-radius: 20px;
+background-color: #dd7881;
+top: -360px;
+left: 7px;
 position: relative;
 z-index: -1;
 }
 
 .barrallavi{
 height: 5px;
-width: 270px;
-border-radius: 60%;
+width: 240px;
+border-radius: 80%;
 background-color: darkred;
 position: relative;
 top: -360px;
-left: -30px;
+left: -20px;
 z-index: 10;
 }
 
 .llavinf{
 height: 40px;
 width: 196px;
-background-color: #c45169;
+background-color: #dd7881;
 border-radius: 44% 56% 100% 0% / 100% 100% 0% 0%;
 position: relative;
-top: -357px;
+top: -365px;
 left: 2px;
 transform: rotateZ(180deg);
 z-index: 9;
