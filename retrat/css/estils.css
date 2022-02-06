@@ -548,7 +548,7 @@ z-index: 1;
 }
 
 #coloretdreta{
-left: -530px;
+left: -780px;
 top: -470px;
 float: right;
 animation: coloretdreta;
@@ -560,20 +560,20 @@ animation-direction: normal;
 }
 @keyframes coloretdreta{
 0%{
-left: -530px;
+left: -780px;
 background-color: rgba(251, 213, 245, 0.15);
 }
 25%{
-left: -535px;
+left: -785px;
 }
 50%{
-left: -540px;
+left: -790px;
 }
 75%{
-left: -535px;
+left: -785px;
 }
 100%{
-left: -530px;
+left: -780px;
 background-color: rgba(204, 175, 199, 0.15);
 }
 }
