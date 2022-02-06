@@ -548,8 +548,8 @@ z-index: 1;
 }
 
 #coloretdreta{
-left: -510px;
-top: -480px;
+left: -530px;
+top: -470px;
 float: right;
 animation: coloretdreta;
 animation-duration: 15s;
@@ -560,20 +560,20 @@ animation-direction: normal;
 }
 @keyframes coloretdreta{
 0%{
-left: -200px;
+left: -530px;
 background-color: rgba(251, 213, 245, 0.15);
 }
 25%{
-left: -205px;
+left: -535px;
 }
 50%{
-left: -210px;
+left: -540px;
 }
 75%{
-left: -205px;
+left: -535px;
 }
 100%{
-left: -200px;
+left: -530px;
 background-color: rgba(204, 175, 199, 0.15);
 }
 }
@@ -581,7 +581,7 @@ background-color: rgba(204, 175, 199, 0.15);
 #coloretesq{
 position: relative;
 left: 680px;
-top: -480px;
+top: -470px;
 float: left;
 animation: coloretesq;
 animation-duration: 15s;
