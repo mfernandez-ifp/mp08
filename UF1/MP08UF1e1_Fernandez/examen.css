@@ -1,0 +1,82 @@
+body{
+background-color: #222;
+font-family: Helvetica, sans-serif;
+}
+
+.elements1{
+display:inline-block;
+list-style-type: none;
+}
+
+h1{
+color: #FFF;
+font-size: 22px;
+margin: 20px;
+width: 100%;
+height: 50px;
+}
+
+#docuinteressants{
+height: 750px;
+}
+
+#docuvistos{
+height: 400px;
+}
+
+#pelispendents, #pelisvistes, #seriesseguint{
+height: 400px;
+}
+.menu{
+background-color: red;
+height: 80px;
+width: 100%;
+}
+
+.seccio{
+height: 50px;
+width: 100%;
+}
+
+.estructura{
+height: 310px;
+width: 175px;
+border-radius: 5px;
+margin: 20px;
+float: left;
+}
+
+img{
+border-radius: 5px;
+}
+.estructura h2{
+color: #CCC;
+padding: 0;
+margin: 0;
+font-size: 14px;
+}
+
+.estructura h3{
+color: #CCC;
+font-size: 11px;
+}
+
+#any{
+text-align: left;
+float: left;
+}
+
+#doc, #peli{
+text-align: right;
+float: right;
+}
+
+#docuvistos img{
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+#secpelisvistes img{
+opacity: 30%;
+}

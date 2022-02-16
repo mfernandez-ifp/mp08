@@ -1,0 +1,218 @@
+body{
+font-family: Helvetica, Sans-serif;
+background: linear-gradient(to left, #D97863, #D9A163);
+font-family: "Mohave Bold", sans-serif;
+margin: 0 auto;
+padding: 0 auto;
+overflow: auto;
+}
+
+article {
+position: relative;
+}
+
+.link{
+color: white;
+font-size: 16px;
+text-decoration: none;
+}
+
+.capçelera{
+font-size: 55px;
+color: #AF5420;
+}
+
+#ivoox, #linkivoox, #anchor, #linkcastbox, #castbox, #linkanchor{
+left: 340px;
+position: relative;
+}
+
+#anchor{
+margin-top: 1150px;
+}
+
+#castbox, #linkcastbox{
+margin-top: 1200px;
+}
+
+#castbox{
+left: 335px;
+}
+
+#linkcastbox{
+position: relative;
+}
+
+#linkanchor{
+margin-top: 100px;
+position: relative;
+}
+
+#logoivoox{
+margin-left: 220px;
+top: -190px;
+position: relative;
+}
+
+#logoanchor{
+margin-left: 220px;
+top: -190px;
+position: relative;
+border-radius: 50px;
+}
+
+#logocastbox{
+margin-left: 220px;
+top: -200px;
+position: relative;
+}
+
+.funcionalitats{
+top: 40px;
+height: 430px;
+}
+
+#funcionalitatsivoox{
+margin-top: 180px;
+}
+
+#funcionalitatsivoox h2{
+padding: auto;
+top: 30px;
+}
+
+#funcionalitatsanchor{
+margin-top: 180px;
+}
+
+#funcionalitatscastbox{
+margin-top: 180px;
+}
+
+.captures, .financament, .companyia, .alternatives, .avantantges, .inconvenients{
+width: 750px;
+height: 400px;
+border-radius: 25px;
+margin-left: 200px;
+margin-top: 80px;
+padding: 20px;
+float: left;
+text-align: center;
+}
+
+#valoracioivoox{
+margin-top: -250px;
+display: inline-block;
+}
+
+#valoracioanchor{
+margin-top: -250px;
+display: inline-block;
+}
+
+#valoraciocastbox{
+margin-top: -250px;
+display: inline-block;
+}
+
+.financament{
+top: 70px;
+left: 30px;
+}
+
+h6{
+text-align: center;
+padding: 20px;
+font-size: 2em;
+color: #AF5420;
+font-size: 36px;
+margin-top: 80px;
+}
+
+.versio, p{
+height: 100px;
+color: white;
+text-align: center;
+width: auto;
+}
+
+p{
+padding: 5px;
+top: 120px;
+font-size: 28px;
+}
+
+.versio{
+font-size: 18px;
+}
+
+#versioivoox{
+margin-top: 10px;
+margin-left: -1400px;
+}
+
+#versioanchor{
+margin-top: 10px;
+margin-left: -1398px;
+}
+
+#versiocastbox{
+margin-top: 10px;
+margin-left: -1400px;
+}
+
+.plataformes{
+width: 100%;
+height: 20px;
+margin-left: 1730px;
+}
+
+#plataformivoox{
+margin-top: -320px;
+}
+
+#plataformanchor{
+margin-top: -300px;
+}
+
+#plataformcastbox{
+margin-top: -335px;
+}
+
+#ivooxdesk, #anchordesk, #castboxdesk{
+margin-left: -100px;
+margin-top: -40px;
+position: relative;
+}
+
+#inconvenientsanchor, #inconvenientscastbox{
+position: relative;
+margin-top: -290px;
+margin-left: 950px;
+}
+
+li{
+margin-top: 70px;
+padding: 3px;
+display: inline-block;
+}
+
+.escriptoriwin, .escriptorimac, .escriptorilin, .nuvolweb, .mobiland, .mobilios{
+margin-left: 30px;
+}
+
+a:link{
+color: #FFFFFF;
+}
+
+a:hover{
+color: #D97863;
+}
+
+a:active{
+color: #D97863;
+}
+
+a:visited{
+color: #FFFFFF;
+}

@@ -1,0 +1,50 @@
+table{
+  border: solid 3px;
+  border-color: black;
+  height: 300px;
+  width: 600px;
+  text-align: center;
+  font-family: 'American Typewriter', Helvetica, Arial, sans-serif; /* Això es la tipografia */
+  font-size: 18px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+tr{
+border: solid 10px;
+border-color: red;
+}
+td{
+height: 40px;
+}
+
+#principal{
+  background-color: aquamarine;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+.hores{
+background-color: gold;
+font-weight: bold;
+}
+
+.m7{
+background-color: tomato;
+}
+
+.m6{
+background-color: #66ccff;
+}
+
+.m8{
+background-color: #ddff99;
+}
+
+.m9{
+background-color: #d9b3ff;
+}
+
+#pati{
+background-color: #ffff4d;
+}
