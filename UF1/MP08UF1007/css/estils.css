@@ -1,0 +1,742 @@
+body{
+background-color: lightgreen;
+}
+
+.cap{
+margin: 0 auto;
+width: 450px;
+height: 580px;
+background-color: #f9eada;
+border-radius: 400px 400px 400px 400px;
+margin-top: 130px;
+margin-left: 650px;
+text-align: center;
+position: relative;
+top: -20px;
+}
+
+.front{
+height: 100px;
+}
+
+.celles{
+  background-color: transparent;
+  border-radius: 50px;
+  box-shadow: 20px 10px #4a2f01;
+  position: relative;
+  z-index: 5;
+  margin: 8px;
+  display: inline-block;
+  height: 110px;
+  width: 130px;
+  display: inline-block;
+  border-radius: 40%;
+  transform: rotate(250deg);
+}
+
+#cellaesquerra{
+  border-radius: 50%;
+  top: -250px;
+  left: -40px;
+  transform: rotateZ(230deg);
+  z-index: 1;
+  animation: cellaesq;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: normal;
+  z-index: 1;
+  }
+  @keyframes cellaesq{
+  0%{
+  top: -250px;
+  }
+  25%{
+  top: -255px;
+  }
+  50%{
+  top: -260px;
+  }
+  75%{
+  top: -255px;
+  }
+  100%{
+  top: -250px;
+  z-index: 1;
+  }
+}
+
+#celladreta{
+  border-radius: 50%;
+  top: -240px;
+  left: 60px;
+  z-index: 1;
+  animation: celladreta;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+  animation-direction: normal;
+  z-index: 1;
+  }
+  @keyframes celladreta{
+  0%{
+  top: -250px;
+  }
+  25%{
+  top: -255px;
+  }
+  50%{
+  top: -260px;
+  }
+  75%{
+  top: -255px;
+  }
+  100%{
+  top: -250px;
+  z-index: 1;
+  }
+}
+
+.parpellaesqsup{
+position: relative;
+width: 78px;
+height: 14px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -260px;
+left: -20px;
+float: left;
+z-index: 5;
+}
+
+.parpellaesqinf{
+position: relative;
+width: 78px;
+height: 20px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -236px;
+left: 58px;
+float: left;
+transform: rotateZ(-180deg);
+z-index: -1;
+}
+
+.parpelladretainf{
+position: relative;
+width: 78px;
+height: 20px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -375px;
+left: -60px;
+float: right;
+z-index: 1;
+transform: rotateZ(-180deg);
+}
+
+.parpelladretasup{
+position: relative;
+width: 78px;
+height: 14px;
+background: #fcdebd;
+border-radius: 100px 100px 0 0;
+top: -400px;
+left: 19px;
+float: right;
+z-index: 3;
+}
+
+.cabell{
+height: 450px;
+width: 530px;
+background-color: #1f0b00;
+border-radius: 170px;
+position: absolute;
+margin-left: -40px;
+margin-top: -60px;
+z-index: -1;
+}
+
+.front{
+height: 380px;
+width: 430px;
+top: 10px;
+border-radius: 200px;
+left: 8px;
+position: relative;
+}
+
+.rinxol1, .rinxol2, .rinxol3, .rinxol4, .rinxol5, .rinxol6{
+background-color: transparent;
+border-radius: 50px;
+box-shadow: 20px 10px #1f0b00;
+position: relative;
+z-index: 5;
+margin: 5px;
+display: inline-block;
+height: 160px;
+width: 160px;
+}
+
+.rinxol1{
+left: -15px;
+top: 130px;
+transform: rotateZ(150deg);
+z-index: 6;
+}
+
+.rinxol2{
+top: 20px;
+left: -160px;
+transform: rotateZ(200deg);
+}
+
+.rinxol3{
+top: -10px;
+left: -220px;
+transform: rotateZ(240deg);
+}
+
+.rinxol4{
+top: -180px;
+left: 230px;
+transform: rotateZ(260deg);
+}
+
+.rinxol5{
+top: -150px;
+left: 170px;
+transform: rotateZ(-70deg);
+}
+
+.rinxol6{
+top: -10px;
+left: 20px;
+transform: rotateZ(-30deg);
+}
+
+.rinxol9, .rinxol10, .rinxol11, .rinxol12, .rinxol13, .rinxol14{
+background-color: transparent;
+border-radius: 50px;
+box-shadow: 20px 10px #1f0b00;
+position: relative;
+z-index: 2;
+margin: 5px;
+display: inline-block;
+height: 160px;
+width: 160px;
+}
+
+.rinxol9{
+left: -130px;
+top: -50px;
+}
+
+.rinxol10{
+left: -250px;
+top: -80px;
+}
+
+.rinxol11{
+left: -100px;
+top: -290px;
+}
+
+.rinxol12{
+left: 190px;
+top: -470px;
+transform: rotateZ(90deg);
+}
+
+.rinxol13{
+left: 50px;
+top: -440px;
+transform: rotateZ(90deg);
+}
+
+.rinxol14{
+left: 190px;
+top: -590px;
+transform: rotateZ(90deg);
+}
+
+.ulls{
+margin: 180px, 0px;
+height: 100px;
+width: 450px;
+float: right;
+top: -40px;
+position: relative;
+z-index: 1;
+}
+
+.blanc{
+width: 80px;
+height: 40px;
+background: white;
+display: inline-block;
+border-radius: 50%;
+top: -145px;
+left: 40px;
+position: relative;
+z-index: 1;
+}
+
+.esquerra .blanc{
+top: -260px;
+left: -100px;
+position: relative;
+}
+
+.dreta .blanc{
+left: -20px;
+top: -420px;
+position: relative;
+z-index: 1;
+}
+
+.iris{
+width: 40px;
+height: 40px;
+background: #b47311;
+display: inline-block;
+border-radius: 50%;
+margin: 0px 20px;
+position: relative;
+animation: irisos;
+animation-duration: 5s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 1;
+}
+@keyframes irisos{
+0%{
+left: 0px;
+}
+25%{
+left: 5px;
+}
+50%{
+left: 10px;
+}
+75%{
+left: 5px;
+}
+100%{
+left: 0px;
+z-index: 1;
+}
+}
+
+.pupila{
+width: 25px;
+height: 25px;
+background: black;
+display: inline-block;
+border-radius: 50%;
+margin: -20px 8px;
+}
+
+.brillantor{
+width: 6px;
+height: 6px;
+background-color: #FFF;
+border-radius: 5px;
+display: inline-block;
+position: relative;
+z-index: 8;
+}
+
+#brillantordreta{
+float: right;
+left: -8px;
+top: -4px;
+z-index: 1;
+}
+
+#brillantoresquerra{
+float: left;
+left: 26px;
+top: -4px;
+}
+
+.esquerra{
+float: left;
+}
+
+.dreta{
+float: right;
+}
+
+.ulleres{
+height: 120px;
+width: 200px;
+position: relative;
+background-color: #614229;
+border-radius: 165px 400px 400px 243px / 98px 100px 150px 96px;
+margin-top: -30px;
+opacity: 85%;
+left: 156px;
+}
+
+.transparentullera{
+height: 110px;
+width: 190px;
+top: 5px;
+position: relative;
+background: rgba(255, 255, 255, 0.34);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.8px);
+-webkit-backdrop-filter: blur(6.8px);
+border: 1px solid rgba(255, 255, 255, 0.34);
+display: inline-block;
+border-radius: 165px 400px 400px 243px / 98px 100px 150px 96px;
+}
+
+#ulleresdreta{
+float: right;
+top: -430px;
+z-index: 2;
+position: relative;
+animation: ulleres;
+animation-duration: 5s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 4;
+}
+@keyframes ulleres{
+0%{
+top: -430px;
+}
+25%{
+top: -425px;
+}
+50%{
+top: -430px;
+}
+75%{
+top: -425px;
+}
+100%{
+top: -430px;
+}
+}
+
+#ulleresesq{
+float: left;
+left: -250px;
+z-index: 2;
+top: -200px;
+position: relative;
+transform: rotateZ(180deg);
+}
+
+.barraulleres{
+height: 10px;
+width: 60px;
+left: -55px;
+top: 80px;
+position: relative;
+background-color: #614229;
+border-radius: 20px;
+transform: rotateZ(180deg);
+}
+
+#transparentesq{
+top: -110px;
+left: -247px;
+position: relative;
+transform: rotateZ(180deg);
+z-index: 4;
+}
+
+#transparentdreta{
+position: relative;
+top: 4px;
+left: -3px;
+display: inline-block;
+float: right;
+}
+
+.orella{
+width: 30px;
+height: 100px;
+border-radius: 20px 40px 50px 10px;
+background-color: #fcdebd;
+position: relative;
+}
+
+.detallorella{
+width: 20px;
+height: 70px;
+border-radius: 10px;
+background-color: #f6c997;
+top: -20px;
+position: relative;
+}
+
+#detallorellaesq{
+top: -30px;
+position: relative;
+}
+
+#orelladreta{
+left: 386px;
+top: -440px;
+float: right;
+z-index: -1;
+}
+
+#lobuldreta{
+height: 40px;
+width: 20px;
+border-radius: 10px;
+background-color: #fcdebd;
+position: relative;
+top: 80px;
+left: -3px;
+transform: rotate(30deg);
+z-index: -1;
+}
+
+#orellaesq{
+left: 622px;
+top: -440px;
+transform: rotateZ(180deg);
+z-index: -1;
+float: left;
+}
+
+#lobulesq{
+height: 40px;
+width: 20px;
+border-radius: 10px;
+background-color: #fcdebd;
+position: relative;
+top: -15px;
+left: 1px;
+transform: rotate(-30deg);
+z-index: -1;
+}
+
+.nas{
+width: 50px;
+height: 170px;
+border-radius: 147px 147px 55px 55px / 341px 341px 83px 83px;
+background-color: #fcdebd;
+left: 850px;
+top: -410px;
+position: relative;
+}
+
+.coloret{
+height: 100px;
+width: 100px;
+border-radius: 100px;
+background-color: rgba(251, 213, 245, 0.15);
+display: inline-block;
+position: relative;
+z-index: 1;
+}
+
+#coloretdreta{
+left: -1080px;
+top: -470px;
+float: right;
+animation: coloretdreta;
+animation-duration: 15s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+}
+@keyframes coloretdreta{
+0%{
+left: -780px;
+background-color: rgba(251, 213, 245, 0.15);
+}
+25%{
+left: -785px;
+}
+50%{
+left: -790px;
+}
+75%{
+left: -785px;
+}
+100%{
+left: -780px;
+background-color: rgba(204, 175, 199, 0.15);
+}
+}
+
+#coloretesq{
+position: relative;
+left: 680px;
+top: -470px;
+float: left;
+animation: coloretesq;
+animation-duration: 15s;
+animation-delay: 2s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 10;
+}
+@keyframes coloretesq{
+0%{
+left: 680px;
+background-color: rgba(251, 213, 245, 0.15);
+}
+25%{
+left: 685px;
+}
+50%{
+left: 690px;
+}
+75%{
+left: 685px;
+}
+100%{
+left: 680px;
+background-color: rgba(204, 175, 199, 0.15);
+z-index: 1;
+}
+}
+
+.cercle{
+width: 40px;
+height: 50px;
+border-radius: 20px 40px 50px 10px;
+background-color: #fcdebd;
+}
+
+#cercledreta{
+left: 35px;
+top: 120px;
+position: relative;
+}
+
+#cercleesq{
+left: -25px;
+top: 70px;
+position: relative;
+transform: rotateZ(180deg);
+}
+
+.forat{
+height: 10px;
+width: 20px;
+border-radius: 0px 150px 150px 150px / 0px 75px 75px 75px;
+background-color: black;
+}
+
+#foratdreta{
+position: relative;
+top: 55px;
+left: 40px;
+z-index: 6;
+}
+
+#foratesq{
+position: relative;
+top: 45px;
+left: -10px;
+z-index: 6;
+transform: rotateY(180deg);
+}
+
+.llavis{
+position: relative;
+left: 785px;
+top: -20px;
+z-index: 9;
+height: 10px;
+width: 10px;
+z-index: 1;
+animation: llavis;
+animation-duration: 8s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-iteration-count: 5;
+animation-direction: normal;
+z-index: 10;
+}
+@keyframes llavis{
+0%{
+top: -20px;
+}
+25%{
+top: -25px;
+}
+50%{
+top: -30px;
+}
+75%{
+top: -25px;
+}
+100%{
+top: -20px;
+z-index: 1;
+}
+}
+.llavisup{
+height: 30px;
+width: 100px;
+background-color: #dd7881;
+border-radius: 44% 56% 100% 0% / 100% 100% 0% 0%;
+position: relative;
+top: -345px;
+transform: rotate(-10deg);
+z-index: 9;
+left: -1px;
+}
+
+#llavisupdreta{
+left: 101px;
+transform: rotate(10deg);
+top: -315px;
+z-index: 9;
+}
+
+.partmitjanallavi{
+height: 20px;
+width: 177px;
+border-radius: 20px;
+background-color: #dd7881;
+top: -360px;
+left: 7px;
+position: relative;
+z-index: -1;
+}
+
+.barrallavi{
+height: 5px;
+width: 240px;
+border-radius: 80%;
+background-color: darkred;
+position: relative;
+top: -360px;
+left: -20px;
+z-index: 10;
+}
+
+.llavinf{
+height: 40px;
+width: 196px;
+background-color: #dd7881;
+border-radius: 44% 56% 100% 0% / 100% 100% 0% 0%;
+position: relative;
+top: -365px;
+left: 2px;
+transform: rotateZ(180deg);
+z-index: 9;
+}
