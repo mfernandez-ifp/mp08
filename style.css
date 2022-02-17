@@ -3,7 +3,7 @@
 
 body{
 background:linear-gradient(red, gold);
-
+background-repeat: no-repeat;
 }
 
 ul li ul a{
@@ -25,4 +25,12 @@ clear: both;
   background-image: url(img/MP08UF1001.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+li{
+list-style-type: none;
+}
+
+a{
+background-color: white;
 }
