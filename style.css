@@ -2,7 +2,7 @@
 }
 
 body{
-background-color: pink;
+background:linear-gradient(top, red, pink);
 }
 
 ul li ul a{
