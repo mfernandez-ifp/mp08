@@ -1,7 +1,8 @@
   @media screen (min-width: 960px){
-  body{
-  background-image: pink;
-  }
+}
+
+body{
+background-image: pink;
 }
 
 ul li ul a{
