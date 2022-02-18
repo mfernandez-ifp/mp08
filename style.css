@@ -45,5 +45,8 @@ background-color: red;
 }
 
 .contenidor ul{
-color: gold; 
+color: gold;
+width: 20px;
+height: 20px;
+background-color: green;
 }
