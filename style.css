@@ -40,6 +40,6 @@ display: inline-block;
 
 .uf{
 height: 400px;
-width: 100px;
+width: 100%;
 background-color: red;
 }
