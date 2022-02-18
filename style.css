@@ -38,8 +38,12 @@ font-family: 'Roboto', sans-serif;
 display: inline-block;
 }
 
-.uf{
+.contenidor{
 height: 400px;
 width: 100%;
 background-color: red;
+}
+
+.contenidor ul{
+color: gold; 
 }
