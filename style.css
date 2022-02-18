@@ -32,5 +32,6 @@ list-style-type: none;
 }
 
 a{
-background-color: white;
+color: white;
+text-decoration: none;
 }
