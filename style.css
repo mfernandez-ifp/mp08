@@ -40,7 +40,9 @@ background-color: purple;
 float: left;
 width: 200px;
 height: 30px;
-padding: 1px;
+padding: 5px;
+margin-left: 10px;
+margin-top: 10px;
 }
 
 .contenidor{
@@ -52,7 +54,7 @@ margin-top: 50px;
 
 .contenidor ul{
 color: gold;
-width: 50px;
+width: 60px;
 border-radius: 30px;
 height: 20px;
 background-color: green;
