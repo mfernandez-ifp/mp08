@@ -2,7 +2,9 @@
 }
 
 body{
-background:linear-gradient(orange, darkorange);
+background: #f59da4;
+margin: 0 auto;
+padding: 0;
 }
 
 ul li ul a{
@@ -33,30 +35,40 @@ list-style-type: none;
 a{
 color: white;
 text-decoration: none;
-font-size: 16px;
+font-size: 18px;
 font-family: 'Roboto', sans-serif;
+}
+
+.caixapag{
 display: inline-block;
-background-color: purple;
+background-color: red;
 float: left;
-width: 200px;
-height: 30px;
+width: 250px;
+height: 230px;
 padding: 5px;
-margin-left: 10px;
-margin-top: 10px;
+margin-left: 30px;
+margin-top: 120px;
+text-align: center;
+border-radius: 10px;
+z-index: 100;
 }
 
 .contenidor{
-height: 400px;
+height: 880px;
 width: 100%;
-background-color: red;
-margin-top: 50px;
+background-color: #f56e6e;
 }
 
 .contenidor ul{
-color: gold;
+color: #f59da4;
 width: 60px;
 border-radius: 30px;
 height: 20px;
-background-color: green;
+font-family: 'League Spartan', sans-serif;
+font-size: 150px;
 float: left;
+position: relative;
+left: -45px;
+top: -160px;
+z-index: 1;
 }
