@@ -1,12 +1,12 @@
 body{
-background-color: lightgreen;
+background-color: #f4f7b3;
 }
 
 .cap{
 margin: 0 auto;
 width: 450px;
 height: 580px;
-background-color: #f9eada;
+background-color: #fae2c8;
 border-radius: 400px 400px 400px 400px;
 margin-top: 130px;
 margin-left: 650px;
@@ -535,81 +535,6 @@ background-color: #fcdebd;
 left: 850px;
 top: -410px;
 position: relative;
-}
-
-.coloret{
-height: 100px;
-width: 100px;
-border-radius: 100px;
-background-color: rgba(251, 213, 245, 0.15);
-display: inline-block;
-position: relative;
-z-index: 1;
-}
-
-#coloretdreta{
-left: -1080px;
-top: -470px;
-float: right;
-animation: coloretdreta;
-animation-duration: 15s;
-animation-delay: 2s;
-animation-timing-function: linear;
-animation-iteration-count: 5;
-animation-direction: normal;
-}
-@keyframes coloretdreta{
-0%{
-left: -780px;
-background-color: rgba(251, 213, 245, 0.15);
-}
-25%{
-left: -785px;
-}
-50%{
-left: -790px;
-}
-75%{
-left: -785px;
-}
-100%{
-left: -780px;
-background-color: rgba(204, 175, 199, 0.15);
-}
-}
-
-#coloretesq{
-position: relative;
-left: 680px;
-top: -470px;
-float: left;
-animation: coloretesq;
-animation-duration: 15s;
-animation-delay: 2s;
-animation-timing-function: linear;
-animation-iteration-count: 5;
-animation-direction: normal;
-z-index: 10;
-}
-@keyframes coloretesq{
-0%{
-left: 680px;
-background-color: rgba(251, 213, 245, 0.15);
-}
-25%{
-left: 685px;
-}
-50%{
-left: 690px;
-}
-75%{
-left: 685px;
-}
-100%{
-left: 680px;
-background-color: rgba(204, 175, 199, 0.15);
-z-index: 1;
-}
 }
 
 .cercle{

@@ -43,18 +43,18 @@ font-family: 'Roboto', sans-serif;
 display: inline-block;
 background-color: red;
 float: left;
-width: 250px;
-height: 230px;
-padding: 5px;
+width: 260px;
+height: 220px;
+padding: 0px;
 margin-left: 30px;
-margin-top: 120px;
+margin-top: 130px;
 text-align: center;
 border-radius: 10px;
 z-index: 100;
 }
 
 .contenidor{
-height: 880px;
+height: 850px;
 width: 100%;
 background-color: #f56e6e;
 }
@@ -67,8 +67,23 @@ height: 20px;
 font-family: 'League Spartan', sans-serif;
 font-size: 150px;
 float: left;
-position: relative;
-left: -45px;
-top: -160px;
+margin-top: 10px;
 z-index: 1;
+margin-left: -40px;
+}
+
+.caixapag:hover{
+background-color: orange;
+}
+
+p{
+background-color: #f56e6e;
+margin-top: 50px;
+position: relative;
+font-size: 12px;
+}
+
+.work{
+height: 190px;
+width: 240px;
 }
