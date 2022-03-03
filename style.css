@@ -77,8 +77,13 @@ z-index: 1;
 margin-left: -40px;
 }
 
-.caixapag:hover{
-background-color: orange;
+img{
+border-radius: 10px;
+}
+
+img:hover{
+opacity: 60%;
+filter: blur(1.5px);
 }
 
 p{
