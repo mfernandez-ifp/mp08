@@ -1,0 +1,48 @@
+div{
+margin: 13.3px;
+overflow: visible;
+font-family: DIN Alternate;
+
+}
+
+.contenidor{
+  background-color: tomato;
+  width: 1200px;
+  margin: 0 auto;
+}
+.cap{
+text-align: center;
+height: 200px;
+}
+
+.cap, .peu{
+width: 1173.4px;
+height: 200px;
+clear: both;
+text-align: center;
+}
+
+.esq, .dre{
+width: 200px;
+float: left;
+}
+
+.esq{
+  height: 200px;
+  float: left;
+}
+
+.cos{
+width: 720px;
+float: left;
+}
+
+.dre{
+float: right;
+}
+
+.peu{
+width: 500px;
+height: 200px;
+clear: both;
+}
