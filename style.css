@@ -7,25 +7,38 @@ margin: 0 auto;
 padding: 0;
 }
 
-ul li ul a{
-  display: block;
-  width: 10rem;
-  height: 5rem;
-  background-color: black;
-  border-radius: 50%;
-  margin: 5rem;
-  float: left;
+audio{
+height: 100px;
+width: 300px;
 }
 
-ul li ul{
-clear: both;
-  }
+.menu{
+height: 40px;
+width: 100%;
+position: relative;
+margin: 0 auto;
+padding: 0;
 }
 
-.feedly{
-  background-image: url(img/MP08UF1001.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.menu li{
+display: inline-block;
+padding: 10px;
+float: right;
+margin-top: 5px;
+margin-right: 5px;
+}
+
+.menu a{
+color: white;
+font-size: 28px;
+font-family: 'League Spartan', sans-serif;
+}
+
+p{
+font-size: 42px;
+font-family: 'Roboto', sans-serif;
+height: 150px;
+width: 200px;
 }
 
 li{
@@ -33,7 +46,7 @@ list-style-type: none;
 }
 
 a{
-color: black;
+color: white;
 text-decoration: none;
 font-size: 18px;
 font-family: 'Roboto', sans-serif;
