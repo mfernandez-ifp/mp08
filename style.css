@@ -9,11 +9,11 @@ padding: 0;
 
 audio{
 margin: 0;
-float: left;
+float: right;
 margin-top: -50px;
 height: 30px;
 width: 350px;
-margin-left: 25px;
+margin-left: 50px;
 }
 
 #UF1{
@@ -45,6 +45,14 @@ font-size: 26px;
 font-family: 'League Spartan', sans-serif;
 }
 
+p{
+background-color: #f56e6e;
+top: 40px;
+font-size: 12px;
+left: 25px;
+position: relative;
+}
+
 .contenidor p{
 font-size: 22px;
 font-family: 'Roboto', sans-serif;
@@ -53,7 +61,8 @@ width: 1050px;
 margin: 0;
 margin-top: -20px;
 margin-bottom: 100px;
-background-color:
+text-align: center;
+margin-left: 500px;
 }
 
 li{
@@ -71,17 +80,17 @@ font-family: 'Roboto', sans-serif;
 background-color: #ccc;
 float: left;
 width: 240px;
-height: 200px;
+height: 220px;
 padding: 0px;
 margin-left: 30px;
-margin-top: 60px;
+margin-top: 100px;
 text-align: center;
 border-radius: 10px;
 z-index: 100;
 }
 
 .contenidor{
-height: 205px;
+height: 805px;
 width: 100%;
 background-color: #f56e6e;
 }
@@ -92,7 +101,7 @@ width: 60px;
 border-radius: 30px;
 height: 20px;
 font-family: 'League Spartan', sans-serif;
-font-size: 150px;
+font-size: 140px;
 float: left;
 margin-top: 10px;
 z-index: 1;
@@ -100,9 +109,15 @@ margin-left: -15px;
 }
 
 #UF1{
-position: relative;
-top: 20px;
+
 }
+
+#UF2{
+position: relative;
+top: 400px;
+left: 30px;
+}
+
 
 img{
 border-radius: 10px;
@@ -115,11 +130,11 @@ opacity: 60%;
 filter: blur(1.5px);
 }
 
-p{
-background-color: #f56e6e;
-top: 40px;
-font-size: 12px;
-left: 25px;
+.crispetes{
+width: 100px;
+height: 100px;
+left: -500px;
+top: -100px;
 position: relative;
 }
 

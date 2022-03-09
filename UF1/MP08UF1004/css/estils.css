@@ -15,18 +15,21 @@ float: left;
 
 .filera:nth-child(odd) .casella:nth-child(even) {
 background-color: black;
+background-image: linear-gradient(black, black);
 }
 
 .filera:nth-child(even) .casella:nth-child(odd){
 width:100px;
 height: 100px;
 background-color: black;
+background-image: linear-gradient(black, black);
 float: left;
 }
 
 .filera:nth-child(even) .casella:nth-child(even) {
   width: 100px;
   height: 100px;
+  background-color: yellow;
   background-image: linear-gradient(45deg, #e8e479, orange);
   float: left;
 }
@@ -52,6 +55,11 @@ transition: 0,1s;
 display: none;
 background-color: white;
 background-image: radial-gradient(farthest-corner at 0px, 0px, #999 10%, #333);
+}
+
+b:hover{
+position: relative;
+top: 100px;
 }
 
 .filera:nth-child(n+7) b{
