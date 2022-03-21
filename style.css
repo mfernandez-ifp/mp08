@@ -59,8 +59,16 @@ margin-top: -40px;
 }
 
 #UF2{
-margin-left: -1900px;
-margin-top: -200px;
+float: left;
+background-color: gold;
+height: 50px;
+width: 300px;
+position: relative;
+}
+
+#UF3{
+left: -150px;
+position: relative;
 float: left;
 }
 
