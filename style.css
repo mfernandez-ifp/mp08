@@ -194,4 +194,6 @@ border-radius: 100px;
 background-color: gold;
 float: right;
 position: fixed;
+color: #333333;
+box-shadow: black 10px 10px 10px;
 }
