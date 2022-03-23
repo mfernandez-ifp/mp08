@@ -2,16 +2,14 @@
 }
 
 body{
-background: #f59da4;
-margin: 0 auto;
-padding: 0;
+  background: #f59da4;
+  padding: 0;
+  margin:0;
 }
 
 .contenidor{
-height: 820px;
-width: 100%;
-background-color: #f56e6e;
-clear: both;
+  background-color: #f56e6e;
+  clear: both;
 }
 
 .contenidor p{
@@ -61,23 +59,19 @@ position: relative;
 }
 
 #UF1{
-float: left;
-left: -0.1%;
-top: -140px;
+
 }
 
 #UF2{
-top: 30px;
-left: -2030px;
+
 }
 
 #UF3{
-left: -2030px;
+
 }
 
 #UF4{
-top: -50px;
-left: -290px;
+
 }
 
 p{
@@ -97,27 +91,19 @@ position: relative;
 }
 
 audio{
-margin: 0;
-float: right;
-margin-top: -60px;
+margin: 0 auto;
 height: 30px;
 width: 350px;
-left: -1000px;
-position: relative;
 }
 
 .ufgran {
 color: #f59da4;
-width: 60px;
 border-radius: 30px;
-height: 20px;
+width: ;
 font-family: 'League Spartan', sans-serif;
 font-size: 120px;
-float: left;
-top: -10px;
 position: relative;
-z-index: 1;
-margin-left: -15px;
+margin: 0 auto;
 }
 
 .caixapag{
