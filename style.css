@@ -11,18 +11,19 @@ padding: 0;
 height: 820px;
 width: 100%;
 background-color: #f56e6e;
+clear: both;
 }
 
 .contenidor p{
-font-size: 22px;
-font-family: 'Roboto', sans-serif;
-height: 50px;
-width: 1050px;
-margin: 0;
-margin-top: 10px;
-margin-bottom: 100px;
-text-align: center;
-margin-left: 500px;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  height: 50px;
+  width: 1050px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 500px;
 }
 
 .menu{
@@ -62,7 +63,7 @@ position: relative;
 #UF1{
 float: left;
 left: -0.1%;
-top: -20%;
+top: -140px;
 }
 
 #UF2{
@@ -193,7 +194,6 @@ height: 200px;
 border-radius: 100px;
 background-color: gold;
 float: right;
-position: fixed;
-color: #333333;
 box-shadow: black 10px 10px 10px;
+z-index: 999;
 }
