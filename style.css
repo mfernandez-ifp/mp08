@@ -61,22 +61,22 @@ position: relative;
 
 #UF1{
 float: left;
-left: 1%;
+left: -0.1%;
 top: -20%;
 }
 
 #UF2{
 top: 30px;
-left: -92%;
+left: -2030px;
 }
 
 #UF3{
-left: -92%;
+left: -2030px;
 }
 
 #UF4{
 top: -50px;
-left: -15%;
+left: -290px;
 }
 
 p{
@@ -175,15 +175,6 @@ top: 10px;
 position: relative;
 }
 
-.programador{
-width: 70%;
-height: 90%;
-position: relative;
-top: -180px;
-opacity: 80%;
-z-index: 1;
-}
-
 .work{
 height: 190px;
 width: 240px;
@@ -194,4 +185,13 @@ img.work:hover{
 opacity: 100%;
 filter: blur(1.5px);
 z-index: 999;
+}
+
+.boto{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+background-color: gold;
+float: right;
+position: fixed;
 }
