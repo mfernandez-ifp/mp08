@@ -68,3 +68,8 @@ background-color: grey;
 background-image: radial-gradient(farthest-corner at 0px 0px, #999 10%, #333);
 box-shadow: 2px 2px 5px black;
 }
+
+.filera:nth-child(n+7) b:hover{
+  position: relative;
+  top: -100px;
+}
