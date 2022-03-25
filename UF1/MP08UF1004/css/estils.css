@@ -53,8 +53,6 @@ transition: 0,1s;
 
 .filera:nth-child(n+3) b{
 display: none;
-background-color: white;
-background-image: radial-gradient(farthest-corner at 0px, 0px, #999 10%, #333);
 }
 
 b:hover{
