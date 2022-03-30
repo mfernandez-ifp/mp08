@@ -92,7 +92,7 @@ position: relative;
 .crispetes{
 width: 50px;
 height: 50px;
-left: -570px;
+left: 0px;
 top: -130px;
 position: relative;
 }
@@ -100,7 +100,7 @@ position: relative;
 audio{
 margin: 0 auto;
 height: 30px;
-width: 350px;
+left: 100px;
 }
 
 .ufgran h3 {
