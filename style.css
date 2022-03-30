@@ -53,13 +53,20 @@ font-size: 26px;
 font-family: 'League Spartan', sans-serif;
 }
 
+.ufgran{
+width: 100%;
+height: 900px;
+background-color: lightgreen;
+margin-top: 70px;
+}
+
 #UF1, #UF2, #UF3, #UF4{
 float: left;
 position: relative;
 }
 
 #UF1{
-
+left: 0px;
 }
 
 #UF2{
@@ -96,10 +103,8 @@ height: 30px;
 width: 350px;
 }
 
-.ufgran {
-color: #f59da4;
-border-radius: 30px;
-width: ;
+.ufgran h3 {
+color: gold; #f59da4;
 font-family: 'League Spartan', sans-serif;
 font-size: 120px;
 position: relative;
@@ -123,20 +128,19 @@ position: relative;
 }
 
 #divsuf1{
-top: 60px;
 }
 
 #divsuf2{
-top: -20px;
+top: ;
 }
 
 #divsuf3{
-top: -7%;
+top: ;
 }
 
 #divsuf4{
-top: 170px;
-left: -17.2%;
+top: ;
+left: ;
 }
 
 img{
